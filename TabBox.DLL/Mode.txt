@@ -1,0 +1,4 @@
+OpenTK = release
+OpenCVx86 = debug
+EmguCVx86 = debug
+AForgex86 = debug
