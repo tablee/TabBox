@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\daisy_feature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="daisy-1.8.1\include\daisy\daisy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="daisy-1.8.1\include\kutility\convolution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="daisy-1.8.1\include\kutility\convolution_default.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="daisy-1.8.1\include\kutility\convolution_opencv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="daisy-1.8.1\include\kutility\corecv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="daisy-1.8.1\include\kutility\fileio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="daisy-1.8.1\include\kutility\general.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="daisy-1.8.1\include\kutility\image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="daisy-1.8.1\include\kutility\image_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="daisy-1.8.1\include\kutility\image_io_bmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="daisy-1.8.1\include\kutility\image_io_jpeg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="daisy-1.8.1\include\kutility\image_io_png.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="daisy-1.8.1\include\kutility\image_io_pnm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="daisy-1.8.1\include\kutility\image_manipulation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="daisy-1.8.1\include\kutility\interaction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="daisy-1.8.1\include\kutility\math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="daisy-1.8.1\include\kutility\progress_bar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\feature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CvDaisyLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="daisy_feature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="daisy-1.8.1\src\corecv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="daisy-1.8.1\src\daisy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="daisy-1.8.1\src\general.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="daisy-1.8.1\src\image_io_bmp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="daisy-1.8.1\src\image_io_jpeg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="daisy-1.8.1\src\image_io_png.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="daisy-1.8.1\src\image_io_pnm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="daisy-1.8.1\src\image_manipulation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="daisy-1.8.1\src\interaction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="daisy-1.8.1\src\progress_bar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="feature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CvDaisyLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
